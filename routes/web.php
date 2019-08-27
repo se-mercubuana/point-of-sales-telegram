@@ -30,8 +30,11 @@ Route::group(['middleware' => 'auth'], function () {
         Route::resource('product', 'ProductController');
     });
 
-    Route::get('/user/{id}/reset-password', 'UserController@resetPassword');
 
+    Route::get('/report/transaction-success', 'ReportController@transactionSuccess');
+    Route::get('/report/transaction-success/export', 'ReportController@transactionSuccessExport');
+
+    Route::get('/user/{id}/reset-password', 'UserController@resetPassword');
 
 
     Route::get('/customer/address/{customerId}', 'CustomerController@listCustomerAddress');

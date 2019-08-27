@@ -21,7 +21,7 @@
                 <div id="loginform">
                     <div class="text-center p-b-20">
                         {{--<span class="db"><img src="../../assets/images/logo.png" alt="logo" /></span>--}}
-                        <div style="font-size: 20px;color: white;">ParfumIslami.com</div>
+                        <div style="font-size: 20px;color: white;">Kelompok Point Of Sales</div>
                     </div>
 
                     <form class="form-horizontal m-t-20" id="loginform" method="POST" action="{{ route('login') }}"

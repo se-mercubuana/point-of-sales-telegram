@@ -19,7 +19,7 @@
                 <!-- Logo text -->
                 <span class="logo-text">
                              <!-- dark Logo text -->
-                    ParfumIslami.com
+                    Kelompok Point Of Sales
                              {{--<img src="/template/assets/images/logo-text.png" alt="homepage" class="light-logo"/>--}}
 
                         </span>
