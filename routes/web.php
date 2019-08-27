@@ -26,13 +26,16 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::group(['middleware' => 'manager'], function () {
         Route::resource('bank', 'BankController');
+        Route::resource('user', 'UserController');
+        Route::resource('product', 'ProductController');
     });
+
+
+    Route::get('/report/transaction-success', 'ReportController@transactionSuccess');
+    Route::get('/report/transaction-success/export', 'ReportController@transactionSuccessExport');
 
     Route::get('/user/{id}/reset-password', 'UserController@resetPassword');
 
-    Route::resource('product', 'ProductController');
-
-    Route::resource('user', 'UserController');
 
     Route::get('/customer/address/{customerId}', 'CustomerController@listCustomerAddress');
 
