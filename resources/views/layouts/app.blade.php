@@ -56,7 +56,7 @@
 <div id="main-wrapper">
 
     @if (!isset($hideAll))
-        @include('layouts.navbar')
+        {{--@include('layouts.navbar')--}}
 
 
         @include('layouts.sidebar')
