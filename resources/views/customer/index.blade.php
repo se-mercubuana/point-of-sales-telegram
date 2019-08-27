@@ -32,6 +32,7 @@
                                 <tr>
                                     <th>Kode</th>
                                     <th>Customer Name</th>
+                                    <th>No Telp</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -40,7 +41,9 @@
                                     <tr>
                                         <td>{{$customer->code}}</td>
                                         <td>{{$customer->name}}</td>
+                                        <td>{{$customer->no_telp}}</td>
                                         <td>
+                                            <a href="/customer/address/{{$customer->id}}/create" class="btn btn-dark">Detail</a>
                                             <a href="/customer/{{$customer->id}}/edit" class="btn btn-warning">Edit</a>
                                             {{--<form method="POST" class="form-horizontal" action="/customer/{{$customer->id}}"--}}
                                             {{--style="display: inline-block;">--}}
