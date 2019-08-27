@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class CustomerAddress extends Model
+class Customer extends Model
 {
 
 
@@ -18,18 +18,14 @@ class CustomerAddress extends Model
 
 
 
-    public function scopeCustomerId($query, $id)
+    public function scopeCode($query, $code)
     {
-        return $query->where('customer_id', $id);
+        return $query->where('code', $code);
     }
 
-
-
-    public function user()
+    public function customerAddress()
     {
-        $this->belongsTo('App\User');
+        return $this->hasMany('App\CustomerAddress');
     }
-
-
 
 }
