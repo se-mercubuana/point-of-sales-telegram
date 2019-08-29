@@ -215,6 +215,7 @@ class CustomerController extends Controller
      */
     public function destroy(Customer $customer)
     {
-        //
+        Customer::find($customer->id)->delete();
+        return redirect('/customer');
     }
 }
