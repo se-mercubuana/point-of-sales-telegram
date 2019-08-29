@@ -13,6 +13,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/dragonmantank/cron-expression" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/erusev/parsedown" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/facebook/webdriver" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fideloper/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/filp/whoops" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
@@ -23,6 +24,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-color" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-highlighter" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/kylekatarnls/update-helper" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/dusk" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/nexmo-notification-channel" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/slack-notification-channel" />
@@ -118,6 +120,7 @@
           <root url="file://$MODULE_DIR$/vendor/dragonmantank/cron-expression" />
           <root url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
           <root url="file://$MODULE_DIR$/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/vendor/facebook/webdriver" />
           <root url="file://$MODULE_DIR$/vendor/fideloper/proxy" />
           <root url="file://$MODULE_DIR$/vendor/filp/whoops" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
@@ -128,6 +131,7 @@
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-color" />
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-highlighter" />
           <root url="file://$MODULE_DIR$/vendor/kylekatarnls/update-helper" />
+          <root url="file://$MODULE_DIR$/vendor/laravel/dusk" />
           <root url="file://$MODULE_DIR$/vendor/laravel/framework" />
           <root url="file://$MODULE_DIR$/vendor/laravel/nexmo-notification-channel" />
           <root url="file://$MODULE_DIR$/vendor/laravel/slack-notification-channel" />
@@ -219,6 +223,7 @@
           <root url="file://$MODULE_DIR$/vendor/dragonmantank/cron-expression" />
           <root url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
           <root url="file://$MODULE_DIR$/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/vendor/facebook/webdriver" />
           <root url="file://$MODULE_DIR$/vendor/fideloper/proxy" />
           <root url="file://$MODULE_DIR$/vendor/filp/whoops" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
@@ -229,6 +234,7 @@
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-color" />
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-highlighter" />
           <root url="file://$MODULE_DIR$/vendor/kylekatarnls/update-helper" />
+          <root url="file://$MODULE_DIR$/vendor/laravel/dusk" />
           <root url="file://$MODULE_DIR$/vendor/laravel/framework" />
           <root url="file://$MODULE_DIR$/vendor/laravel/nexmo-notification-channel" />
           <root url="file://$MODULE_DIR$/vendor/laravel/slack-notification-channel" />
