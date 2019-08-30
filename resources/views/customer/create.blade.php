@@ -17,32 +17,39 @@
         <div class="row">
             <div class="col-12">
                 <div class="card">
-                    <form method="POST" class="form-horizontal" action="/bank" enctype="multipart/form-data">
+                    <form method="POST" class="form-horizontal" action="/customer" enctype="multipart/form-data">
                         {{csrf_field()}}
                         <div class="card-body">
-                            <h4 class="card-title">Create Bank</h4>
+                            <h4 class="card-title">Create Customer</h4>
+
 
                             <div class="form-group row">
                                 <label for="fname" class="col-sm-3 text-right control-label col-form-label">
-                                    Nama Bank
+                                    Kode
                                 </label>
                                 <div class="col-sm-9">
-                                    <select class="select2 form-control custom-select"
-                                            style="width: 100%; height:36px;" name="name" required>
-                                        @foreach($banks as $bank)
-                                            <option value="{{$bank->name}}">{{$bank->name}}</option>
-                                        @endforeach
-                                    </select>
+                                    <input type="text" name="code" class="form-control" id="fname"
+                                           placeholder="Kode Customer" required>
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label for="fname" class="col-sm-3 text-right control-label col-form-label">
-                                    No Rekening
+                                    Nama Customer
                                 </label>
                                 <div class="col-sm-9">
-                                    <input type="number" name="no_rekening" class="form-control" id="fname"
-                                           placeholder="Nomor Rekening" required>
+                                    <input type="text" name="name" class="form-control" id="fname"
+                                           placeholder="Nama Customer" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="fname" class="col-sm-3 text-right control-label col-form-label">
+                                    No Telp
+                                </label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="no_telp" class="form-control" id="fname"
+                                           placeholder="No Telp" required>
                                 </div>
                             </div>
 
@@ -50,8 +57,7 @@
                         </div>
                         <div class="border-top">
                             <div class="card-body">
-                                {{--<input type="submit" id="submitBank" class="btn btn-primary" value="Submit">--}}
-                                <input type="submit" class="postbank" style="float:right;" value="Submit">
+                                <button type="submit" class="btn btn-primary">Submit</button>
                             </div>
                         </div>
                     </form>
