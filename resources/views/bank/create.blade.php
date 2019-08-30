@@ -50,7 +50,8 @@
                         </div>
                         <div class="border-top">
                             <div class="card-body">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                {{--<input type="submit" id="submitBank" class="btn btn-primary" value="Submit">--}}
+                                <input type="submit" class="postbank" style="float:right;" value="Submit">
                             </div>
                         </div>
                     </form>

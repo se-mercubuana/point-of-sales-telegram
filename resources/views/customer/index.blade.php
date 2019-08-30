@@ -43,8 +43,9 @@
                                         <td>{{$customer->name}}</td>
                                         <td>{{$customer->no_telp}}</td>
                                         <td>
-                                            <a href="/customer/address/{{$customer->id}}/create" class="btn btn-dark">Detail</a>
-                                            <a href="/customer/{{$customer->id}}/edit" class="btn btn-warning">Edit</a>
+{{--                                            <a href="/customer/address/{{$customer->id}}/create" class="btn btn-dark">Detail</a>--}}
+                                            <a href="/customer/{{$customer->id}}/edit" class="btn btn-warning">Detail</a>
+{{--                                            <a href="/customer/{{$customer->id}}/edit" class="btn btn-danger">Delete</a>--}}
                                             {{--<form method="POST" class="form-horizontal" action="/customer/{{$customer->id}}"--}}
                                             {{--style="display: inline-block;">--}}
                                             {{--{{csrf_field()}}--}}
