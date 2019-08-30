@@ -4,9 +4,9 @@
         <!-- Sidebar navigation-->
         <nav class="sidebar-nav">
             <ul id="sidebarnav" class="p-t-30">
-                <li class="sidebar-item"><a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                            href="/home" aria-expanded="false"><i
-                                class="mdi mdi-home"></i><span class="hide-menu">Dashboard</span></a></li>
+                {{--<li class="sidebar-item"><a class="sidebar-link waves-effect waves-dark sidebar-link"--}}
+                {{--href="/home" aria-expanded="false"><i--}}
+                {{--class="mdi mdi-home"></i><span class="hide-menu">Dashboard</span></a></li>--}}
 
                 <li class="sidebar-item"><a class="sidebar-link waves-effect waves-dark sidebar-link"
                                             href="/bank" aria-expanded="false"><i
@@ -52,7 +52,7 @@
 
                 <li class="sidebar-item"><a class="sidebar-link waves-effect waves-dark sidebar-link"
                                             href="/logout" aria-expanded="false"><i
-                            class="mdi mdi-logout"></i><span class="hide-menu">Logout</span></a></li>
+                                class="mdi mdi-logout"></i><span class="hide-menu">Logout</span></a></li>
 
             </ul>
         </nav>

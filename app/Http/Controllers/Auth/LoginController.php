@@ -28,7 +28,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/transaction';
 
     /**
      * Create a new controller instance.
@@ -55,7 +55,7 @@ class LoginController extends Controller
         if (Auth::attempt(['username' => $request->username, 'password' => $request->password, 'is_active' => true])) {
             $user = User::username($request->username)->first();
             Auth::login($user);
-            return redirect('/home');
+            return redirect('/transaction');
         } else {
             return redirect('/login');
         }

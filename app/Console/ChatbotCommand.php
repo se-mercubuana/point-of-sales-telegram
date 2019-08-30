@@ -23,7 +23,6 @@ class ChatbotCommand extends \Illuminate\Console\Command
     protected $debug = false;
 
 
-
     public function handle()
     {
         while (true) {
@@ -135,13 +134,18 @@ class ChatbotCommand extends \Illuminate\Console\Command
             // balasan default jika pesan tidak di definisikan
             default:
 //                $hasil = '';
-                if($command[0] =='halo'){
+                if ($command[0] == 'halo') {
                     $hasil = 'hai';
                 }
 
-                if($command[0] =='beli'){
-                    $hasil = 'mau beli apa?';
+                if ($command[0] == 'haloo') {
+                    $hasil = 'hai';
                 }
+
+                if ($command[0] == 'halooo') {
+                    $hasil = 'hai';
+                }
+
 //                $hasil = 'Terimakasih, pesan telah kami terima.';
                 break;
         }
@@ -230,15 +234,6 @@ class ChatbotCommand extends \Illuminate\Console\Command
     Sekian.
 
     */
-
-
-
-
-
-
-
-
-
 
 
 }
